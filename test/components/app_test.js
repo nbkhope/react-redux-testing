@@ -20,4 +20,8 @@ describe('App', () => {
     expect(component).to.contain('Testing a React-Redux App');
   });
 
+  it('shows a comment box', () => {
+    expect(component.find('.comment-box')).to.exist;
+  });
+
 });
