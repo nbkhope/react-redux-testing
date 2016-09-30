@@ -10,6 +10,8 @@ export default class App extends Component {
         <h1>Testing a React-Redux App</h1>
 
         <CommentBox />
+
+        <h2>Comments</h2>
         <CommentList />
 
       </div>
